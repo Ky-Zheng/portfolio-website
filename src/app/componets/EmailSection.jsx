@@ -13,18 +13,18 @@ const EmailSection = () => {
         <h5 className="text-xl font-bold text-white my-2">Let's Connect</h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}
-          I'm always looking for new opportunities, and my inbox is open 24/7.
-          Whether you have a questions or just want to say hi, shoot me an
-          email!{" "}
+          I'm always looking for new opportunities and would love to make new
+          friends. My inbox is open 24/7. Whether you have a questions or just
+          want to say hi, send me a message!{" "}
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="github.com/">
+          <Link href="https://github.com/kaiyue-zheng/">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
-          <Link href="linkedin.com/">
+          <Link href="https://www.linkedin.com/in/kaiyuezheng/">
             <Image src={LinkedInIcon} alt="LinkedIn Icon" />
           </Link>
-          <Link href="instagram.com/">
+          <Link href="https://www.instagram.com/kaiyue_zheng_/">
             <Image src={InstagramIcon} alt="Instagram Icon" />
           </Link>
         </div>
