@@ -40,7 +40,7 @@ const TABDATA = [
       <ul className="list-disc pl-2">
         <li>
           <Link
-            className="hover:text-blue-500"
+            className="hover:text-orange-500"
             href="https://coursera.org/share/ae239cfe86b3df8ff2c605430c842a8a"
           >
             Applied Data Science with Python
@@ -73,7 +73,13 @@ const AboutSection = () => {
           />
           <p className="text-xs text-gray-400 row-start-2 pt-2">
             Photo by
-            <Link href="https://unsplash.com/@wasdrew"> Andras Vas</Link>
+            <Link
+              className="hover:text-orange-500"
+              href="https://unsplash.com/@wasdrew"
+            >
+              {" "}
+              Andras Vas
+            </Link>
           </p>
         </div>
         <div>
