@@ -9,7 +9,7 @@ const TABDATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <ul>
+      <ul className="list-disc pl-2">
         <li>Python</li>
         <li>SQL</li>
         <li>Next.js</li>
@@ -23,7 +23,7 @@ const TABDATA = [
     title: "Education",
     id: "education",
     content: (
-      <ul>
+      <ul className="list-disc pl-2">
         <li>
           M.S. in Computer Information Science, Harrisburg University of Science
           and Technology
@@ -37,7 +37,7 @@ const TABDATA = [
     title: "Certifications",
     id: "certifications",
     content: (
-      <ul>
+      <ul className="list-disc pl-2">
         <li>
           <Link
             className="hover:text-blue-500"
