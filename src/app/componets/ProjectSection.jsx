@@ -56,7 +56,7 @@ const ProjectSection = () => {
 
   return (
     <>
-      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-6">
+      <h2 className="text-center text-4xl font-bold text-white mt-20 mb-6">
         My Projects
       </h2>
       <div className="text-white flex felx-row justify-center items-center gap-2 py-6">

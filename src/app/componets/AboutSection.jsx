@@ -62,16 +62,16 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-white ">
-      <div className="md:grid md:grid-cols-2 gap-8 py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <div className="md:grid md:grid-rows-2">
+    <section className="text-white">
+      <div className="md:grid md:grid-cols-2 gap-8 py-8 px-4  xl:gap-16 sm:py-10 xl:px-16">
+        <div className="md:grid justify-start">
           <Image
             src="/images/about-image.jpg"
             alt="about-image"
             width={500}
             height={500}
           />
-          <p className="text-xs text-gray-400 row-start-2 pt-2">
+          <p className="text-xs text-gray-400 pt-2">
             Photo by
             <Link
               className="hover:text-orange-500"
