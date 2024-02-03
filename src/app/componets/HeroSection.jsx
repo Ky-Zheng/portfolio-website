@@ -33,7 +33,8 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#adb7be] text-lg mb-6 lg:text-xl">
-            thriving to improve both people's lives and the planet each day.
+            thriving to improve both people&apos;s lives and the planet each
+            day.
           </p>
           <div>
             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-tertiary-500 via-primary-500 to-secondary-500 hover:bg-slate-200 text-white">
