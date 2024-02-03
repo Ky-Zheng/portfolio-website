@@ -85,9 +85,9 @@ const AboutSection = () => {
         <div>
           <h2 className="text-4xl font-bold text-white mb-4 mt-8">About Me</h2>
           <p className="text-base md:text-lg">
-            I'm a versatile professional based in New York City. I'm deeply
-            passionate about data science, product management, design, and
-            frontend development. I thrive on transforming complex data into
+            I &apos; a versatile professional based in New York City. I am
+            deeply passionate about data science, product management, design,
+            and frontend development. I thrive on transforming complex data into
             actionable insights and excel in guiding projects from concept to
             success.
           </p>
@@ -95,11 +95,11 @@ const AboutSection = () => {
           <p>
             As a dedicated data scientist, I uncover meaningful patterns from
             data, while my product management expertise empowers me to lead
-            cross-functional teams. Beyond my technical pursuits, I'm an avid
+            cross-functional teams. Beyond my technical pursuits, I am an avid
             artist and aspiring personal trainer. My love for painting fuels my
-            creativity, and I'm committed to lifelong learning as I work towards
-            becoming a certified personal trainer. What sets me apart is not
-            just my technical skills but also my ability to communicate
+            creativity, and I am committed to lifelong learning as I work
+            towards becoming a certified personal trainer. What sets me apart is
+            not just my technical skills but also my ability to communicate
             effectively, foster positive team dynamics, and unite diverse
             talents in any organization.
           </p>
