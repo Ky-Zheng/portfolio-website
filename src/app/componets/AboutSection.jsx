@@ -61,7 +61,7 @@ const TABDATA = [
             combat animal homelessness in Virginia. I am a regular donor to
             Homeward Trails, where I adopted my cat Twizzler in 2016 when she
             was only 3 months old. They took care everything of her including
-            vaccines and spay/neuter. I&apos;m grateful for their AMAZING work!!
+            vaccines and spay. I&apos;m grateful for their AMAZING work!!
           </p>
         </li>
       </ul>
