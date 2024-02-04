@@ -36,7 +36,7 @@ const TABDATA = [
             improvements. I am a donor to Planned Parenthood.{" "}
             <span className="text-white font-bold">
               I believe the access to quality health care is a HUMAN RIGHT and
-              the access to abortion is a WOMEN'S HUMAN RIGHT.
+              the access to abortion is a WOMEN&apos;S HUMAN RIGHT.
             </span>
           </p>
         </li>
@@ -61,7 +61,7 @@ const TABDATA = [
             combat animal homelessness in Virginia. I am a regular donor to
             Homeward Trails, where I adopted my cat Twizzler in 2016 when she
             was only 3 months old. They took care everything of her including
-            vaccines and spay/neuter. I am grateful for their AMAZING work!!
+            vaccines and spay/neuter. I&apos;m grateful for their AMAZING work!!
           </p>
         </li>
       </ul>
