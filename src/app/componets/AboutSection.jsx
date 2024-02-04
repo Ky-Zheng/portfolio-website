@@ -6,6 +6,68 @@ import Link from "next/link";
 
 const TABDATA = [
   {
+    title: "Donation",
+    id: "donation",
+    content: (
+      <ul className="list-disc pl-2">
+        <p className=" text-gray-400 mb-5">
+          Please join me to support human rights and animals in need.{" "}
+        </p>
+        <li className="mb-2">
+          {" "}
+          <p className="text-gray-400">
+            <Link
+              className="text-lg font-semibold text-purple-300 hover:text-blue-300"
+              href="https://www.plannedparenthood.org/get-involved"
+            >
+              Planned Parenthood
+            </Link>
+            <br></br>
+            Planned Parenthood, founded in 1916, is a renowned advocate and
+            provider of sexual health care, education, and resources. Their
+            mission is to ensure everyone has informed choices about their
+            bodies and futures. With nearly 600 health centers across the U.S.,
+            they offer preventive care, birth control, STI testing, and cancer
+            screenings. Their commitment extends to inclusive, science-backed
+            sex education, reaching millions in classrooms and online. With 18
+            million supporters, they fight for reproductive rights nationwide.
+            Globally, they collaborate with over 100 organizations to improve
+            health care access, fund family planning, and advocate for global
+            improvements. I am a donor to Planned Parenthood.{" "}
+            <span className="text-white font-bold">
+              I believe the access to quality health care is a HUMAN RIGHT and
+              the access to abortion is a WOMEN'S HUMAN RIGHT.
+            </span>
+          </p>
+        </li>
+        <li>
+          {" "}
+          <p className="text-gray-400">
+            <Link
+              className="text-lg font-semibold text-purple-300 hover:text-blue-300"
+              href="https://www.homewardtrails.org/about/"
+            >
+              Homeward Trails Animal Rescue
+            </Link>
+            <br></br>
+            Homeward Trails Animal Rescue, a 501(c)(3) non-profit founded in
+            2002, dedicates itself to{" "}
+            <span className="text-white font-bold">
+              finding homes for dogs and cats from underprivileged communities,
+              shelters, and owners unable to care for them.
+            </span>{" "}
+            They also have international partners, conduct spay/neuter campaigns
+            in Puerto Rico, and initiated the Trails UP program in 2020 to
+            combat animal homelessness in Virginia. I am a regular donor to
+            Homeward Trails, where I adopted my cat Twizzler in 2016 when she
+            was only 3 months old. They took care everything of her including
+            vaccines and spay/neuter. I am grateful for their AMAZING work!!
+          </p>
+        </li>
+      </ul>
+    ),
+  },
+  {
     title: "Skills",
     id: "skills",
     content: (
@@ -16,6 +78,10 @@ const TABDATA = [
         <li>React</li>
         <li>Figma</li>
         <li>JIRA</li>
+        <li>AWS tech stack</li>
+        <li>Machine Learning</li>
+        <li>Ecommerce Personalization</li>
+        <li>Marketing Analytics</li>
       </ul>
     ),
   },
@@ -26,10 +92,10 @@ const TABDATA = [
       <ul className="list-disc pl-2">
         <li>
           M.S. in Computer Information Science, Harrisburg University of Science
-          and Technology
+          and Technology, 2023
         </li>
-        <li>M.S. in Statistics, George Washington University</li>
-        <li>B.S. in Mathematics, University of Michigan</li>
+        <li>M.S, in Statistics, George Washington University, 2018</li>
+        <li>B.S. in Mathematics, University of Michigan, 2015</li>
       </ul>
     ),
   },
@@ -40,13 +106,25 @@ const TABDATA = [
       <ul className="list-disc pl-2">
         <li>
           <Link
-            className="hover:text-orange-500"
+            className="hover:text-yellow-500"
             href="https://coursera.org/share/ae239cfe86b3df8ff2c605430c842a8a"
           >
             Applied Data Science with Python
           </Link>
         </li>
-        <li>SAS Certified Base Programmer for SAS 9</li>
+        <li>
+          <Link
+            className="hover:text-yellow-500"
+            href="https://www.youracclaim.com/badges/cdb4a69d-038b-4ccd-b85c-24d85cc70f9c/linked_in_profile"
+          >
+            SAS Certified Base Programmer for SAS 9
+          </Link>
+        </li>
+        <li>
+          <Link className="hover:text-blue-500" href="/images/padi.png">
+            PADI Open Water Diver
+          </Link>
+        </li>
       </ul>
     ),
   },
@@ -110,6 +188,13 @@ const AboutSection = () => {
             ideas to life!
           </p>
           <div className="flex flex-row mt-8">
+            <TabButton
+              selectTab={() => handleTabChange("donation")}
+              active={tab === "donation"}
+            >
+              {" "}
+              DONATION{" "}
+            </TabButton>
             <TabButton
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}

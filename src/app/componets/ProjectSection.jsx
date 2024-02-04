@@ -12,13 +12,13 @@ const projectData = [
     imgUrl: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/kaiyue-zheng/kaiyue-website",
-    previewUrl: "/",
+    previewUrl: "kaiyuezheng.com",
   },
   {
     id: 2,
     title: "Digital Shopping Assistant",
     description:
-      "This is a hackathon project to build a chatbot as a digital assistant.",
+      "This is a company-wise prize-winning project: a prototype of AI powered digital shopping assitant.",
     imgUrl: "/images/projects/mav.png",
     tag: ["All", "PM"],
     gitUrl: "/",
@@ -26,19 +26,74 @@ const projectData = [
   },
   {
     id: 3,
-    title: "Some project to be added",
-    description: "This is a placeholder.",
-    imgUrl: "/images/projects/2.png",
-    tag: ["All"],
+    title: "Enterprise Web Application",
+    description:
+      "This web application is designed for enterprise purposes, allowing users(marketers, stylists, operations, and etc) to access customer and product information.",
+    imgUrl: "/images/projects/3.png",
+    tag: ["All", "Web", "PM"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 4,
-    title: "Some project to be added",
-    description: "This is a placeholder.",
-    imgUrl: "/images/projects/2.png",
-    tag: ["All"],
+    title: "Painting Project no.1",
+    description: "Acrylic on canvas, 11x14 inches",
+    imgUrl: "/images/projects/paint1.png",
+    tag: ["All", "Art", "Painting"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  {
+    id: 5,
+    title: "Painting Project no.2",
+    description: "Acrylic on canvas, 11x14 inches",
+    imgUrl: "/images/projects/paint2.png",
+    tag: ["All", "Art", "Painting"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  {
+    id: 6,
+    title: "Painting Project no.3",
+    description: "Acrylic on canvas, 11x14 inches",
+    imgUrl: "/images/projects/paint3.png",
+    tag: ["All", "Art", "Painting"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  {
+    id: 7,
+    title: "Photography Project no.1",
+    description: "Manhattan, New York",
+    imgUrl: "/images/projects/Photo1.png",
+    tag: ["All", "Art", "Photography"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  {
+    id: 8,
+    title: "Photography Project no.2",
+    description: "Dia, Beacon",
+    imgUrl: "/images/projects/Photo2.png",
+    tag: ["All", "Art", "Photography"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  {
+    id: 9,
+    title: "Photography Project no.3",
+    description: "Whiteney Museum",
+    imgUrl: "/images/projects/Photo3.png",
+    tag: ["All", "Art", "Photography"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  {
+    id: 10,
+    title: "Coming Soon...",
+    description: "My bread and butter project",
+    imgUrl: "/",
+    tag: ["All", "DS"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -70,13 +125,23 @@ const ProjectSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
+          name="Art"
+          isSelected={tag === "Art"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="DS"
+          isSelected={tag === "DS"}
         />
         <ProjectTag
           onClick={handleTagChange}
           name="PM"
           isSelected={tag === "PM"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Web"
+          isSelected={tag === "Web"}
         />
       </div>
       <div className="grid md:grid-cols-3 gap-8 md:gap-12">
